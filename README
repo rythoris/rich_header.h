@@ -1,0 +1,20 @@
+rich_header.h is a simple and flexible header only C/C++ library for reading and
+deciphering the undocumented rich header from the portable executable (PE)
+files.
+
+The header file by itself acts just like a header file and you have to explicitly
+define the 'RICH_HEADER_IMPLEMENTATION' to also include the function definitions.
+
+Getting started
+===============
+
+I've included a small example code (example.c) which basically includes all
+the functions you need to get started with the library.
+
+For more information just read the source or the function comments! it's really
+simple.
+
+License
+=======
+
+This project is licensed under the GPLv3 copyleft license.
